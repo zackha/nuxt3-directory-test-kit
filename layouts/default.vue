@@ -1,6 +1,6 @@
 <template>
-  <div>Layouts(default)
+  <div>default
     <AppHeader style="color: #4caf50;" />
-    <slot />Layouts(default)
+    <slot />default
   </div>
 </template>

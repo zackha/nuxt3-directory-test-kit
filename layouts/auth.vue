@@ -1,6 +1,6 @@
 <template>
-  <div>Layouts(login)
+  <div>auth
     <AppBack style="color: #4caf50;" />
-    <NuxtPage />Layouts(login)
+    <NuxtPage />auth
   </div>
 </template>
