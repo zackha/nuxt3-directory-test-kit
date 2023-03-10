@@ -1,3 +1,5 @@
 <template>
-  <div>appBack</div>
+  <div>Components(AppBack)
+    <NuxtLink to="/">->Back</NuxtLink>
+  </div>
 </template>

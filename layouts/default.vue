@@ -1,7 +1,6 @@
 <template>
-  <div style="color: #4caf50;">container
-    <AppBack />
-    <slot />
+  <div>Layouts(default)
+    <AppHeader style="color: #4caf50;" />
+    <slot />Layouts(default)
   </div>
-  <div style="color: #4caf50;">footer</div>
 </template>

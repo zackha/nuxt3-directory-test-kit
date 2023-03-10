@@ -1,3 +1,3 @@
 <template>
-  <div style="color: #ff0000;">pages / index.vue</div>
+  <div style="color: #ff0000;">Pages(index)</div>
 </template>
