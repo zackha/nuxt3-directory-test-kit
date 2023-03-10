@@ -1,6 +1,6 @@
 <template>
-  <div>default
+  <div>{{ `<default>` }}
     <AppHeader style="color: #4caf50;" />
-    <slot />default
+    <slot />{{ `<default>` }}
   </div>
 </template>

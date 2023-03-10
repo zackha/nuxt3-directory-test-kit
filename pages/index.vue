@@ -1,3 +1,3 @@
 <template>
-  <div style="color: #ff0000;">index</div>
+  <div style="color: #ff0000;">{{ `<index>` }}</div>
 </template>
