@@ -1,6 +1,12 @@
 <template>
-  <div>{{ `<default>` }}
-    <AppHeader style="color: #4caf50;" />
-    <slot />{{ `<default>` }}
+  <div>
+    <pre>default layout</pre>
+    <slot />
   </div>
 </template>
+
+<style scoped>
+div {
+  background-color: lightgreen;
+}
+</style>

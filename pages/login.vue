@@ -1,11 +1,15 @@
 <template>
-  <div style="color: #ff0000;">{{ `<login>` }}
-   <NuxtLink to="/register">register</NuxtLink>{{ `<login>` }}
+  <div>
+    <h1>Login page</h1>
+    <NuxtLink to="/register">register</NuxtLink>
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 definePageMeta({
-  layout: "auth",
-});
+  layout: 'auth',
+  layoutTransition: {
+    name: 'slide-in'
+  }
+})
 </script>

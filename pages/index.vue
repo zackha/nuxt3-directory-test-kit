@@ -1,3 +1,6 @@
 <template>
-  <div style="color: #ff0000;">{{ `<index>` }}</div>
+  <div>
+    <h1>Index page</h1>
+    <NuxtLink to="/login">login</NuxtLink>
+  </div>
 </template>
