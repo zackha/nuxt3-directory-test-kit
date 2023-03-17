@@ -7,9 +7,6 @@
 
 <script setup lang="ts">
 definePageMeta({
-  layout: 'auth',
-  layoutTransition: {
-    name: 'slide-in'
-  }
+  layout: 'auth'
 })
 </script>
